@@ -1,0 +1,2201 @@
+@font-face{font-family:custom0;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Thin.otf);}
+
+@font-face{font-family:custom1;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Regular.otf);}
+
+@font-face{font-family:custom2;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Bold.otf);}
+
+@font-face{font-family:custom3;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Light.otf);}
+
+@font-face{font-family:custom4;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-ExLight.otf);}
+
+@font-face{font-family:custom5;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-BoldIt.otf);}
+
+@font-face{font-family:custom6;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-ThinIt.otf);}
+
+@font-face{font-family:custom7;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-SemiBold.otf);}
+
+@font-face{font-family:custom8;src:url(../fonts/lota-grotesque/regular/LotaGrotesque-Black.otf);}
+
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;}
+
+html,body{font-size:15px;line-height:1.5;background-color:#242424 !important;}
+
+html{overflow-x:hidden;}
+
+body{background-color:#242424 !important;margin:0 !important;padding:0 !important;}
+
+.nacl-col{float:left;width:100%;}
+
+.nacl-row-padding,.nacl-row-padding>.nacl-col{padding:0 8px;}
+
+.nacl-container:after,.nacl-container:before,.nacl-row:after,.nacl-row:before,.nacl-row-padding:after,.nacl-row-padding:before,.nacl-clear:after,.nacl-clear:before{content:"";display:table;clear:both;}
+
+::selection{background-color:#999999;}
+
+::-webkit-scrollbar{width:12px;}
+
+::-webkit-scrollbar-track{background:#f1f1f1;}
+
+::-webkit-scrollbar-thumb{background:#0e74bc;}
+
+::-webkit-scrollbar-thumb:hover{background:#4A96D9;}
+
+.site-title{font-family:custom0 !important;color:#ffffff !important;font-size:2em !important;text-decoration:none;}
+
+small{font-family:custom2 !important;color:#ffffff !important;font-size:.9em !important;text-decoration:none;}
+
+#nv-primary-navigation-sidebar{font-size:1.4em;}
+
+.nv-navbar{position:fixed;width:100%;z-index:100;}
+
+.menu-item{margin-bottom:5px;}
+
+a:link{text-decoration:none;color:#ffffff;}
+
+a:visited{text-decoration:none;color:#ffffff;}
+
+a:hover{text-decoration:none;color:#ffffff;}
+
+a:active{text-decoration:none;color:#ffffff;}
+
+.content{margin:0 auto;width:100%;max-width:960px;padding:0 15px;}
+
+video{max-width:100%;height:auto;}
+
+.nacl-responsive-img{width:100%;height:auto;}
+
+
+
+
+/*Small Column Styles*/
+.nacl-col.s01{width:8.33333%}
+.nacl-col.s02{width:16.66666%}
+.nacl-col.s03{width:24.99999%}
+.nacl-col.s04{width:33.33333%}
+.nacl-col.s05{width:41.66666%}
+.nacl-col.s06{width:49.99999%}
+.nacl-col.s07{width:58.33333%}
+.nacl-col.s08{width:66.66666%}
+.nacl-col.s09{width:74.99999%}
+.nacl-col.s10{width:83.33333%}
+.nacl-col.s11{width:91.66666%}
+.nacl-col.s12{width:99.99999%}
+
+
+
+
+
+
+
+
+/*Global*/
+.header-main{position:fixed;width:100%;z-index:3000;}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-family:custom3 !important;color:#ffffff;font-size:3.7em !important;line-height:.9;display:block;text-align:center;position:relative;font-weight:500 !important;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+h2{font-family:custom2 !important;color:#ffffff;font-size:2.1em !important;line-height:1.2;display:block;text-align:center;position:relative;left:-300px;font-weight:200 !important;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+h3{font-family:custom3 !important;color:#ffffff;font-size:2.3em !important;line-height:1.3;display:block;text-align:center;position:relative;font-weight:600 !important;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+h4{font-family:custom1 !important;color:#ffffff;font-size:1.7em !important;line-height:1.8;display:block;text-align:left;margin-bottom:.5em !important;}
+h5{font-family:custom1 !important;color:#ffffff;font-size:1.6em !important;line-height:1.5 !important;display:block;text-align:left;}
+h6{font-family:custom1 !important;color:#ffffff;font-size:1em !important;line-height:1.8;display:block;text-align:left;}
+p{font-family:custom4 !important;font-size:1.5em !important;color:#ffffff !important;line-height:1.5 !important;display:inline-block;margin-bottom:20px;}
+.list{font-family:custom4 !important;font-size:2.9em !important;color:#ffffff !important;line-height:1.5 !important;display:inline-block;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{display:none;}
+.nacl-video-container{margin:2em;}
+.nacl-fluid-video{width:600px;height:auto;display:block;margin:0 auto;}
+.text-box{font-family:custom4 !important;background-color:#ffffff;font-size:1.5em;padding:50px 25px;margin:5px;text-align:left;color:#000000 !important;position:relative;z-index:100;overflow:hidden;}
+.nested-text{position:absolute;top:0;left:0;margin:1em 1em 0 1em;}
+.nested-text-heading{font-family:custom1 !important;color:#0e74bc;font-size:1.2em !important;line-height:1.8;display:block;text-align:left;}
+/*End Global*/
+
+
+
+
+
+
+	
+
+/*Scroll Triggered Animations*/
+.animated-image{opacity:0;transform:translate(0, -130px);transition:all 2s;will-change:transform, opacity;}
+.animated-image.visible-image{opacity:1;transform:translate(0, 10px);}
+.animated-image-hover{opacity:0;transform:translate(0, -130px);transition:all 2s;will-change:transform, opacity;}
+.animated-image-hover.visible-image-hover{opacity:1;transform:translate(0, 10px);}
+.animated-heading{opacity:0;transform:translate(-130px, 0);transition:all 3s;will-change:transform, opacity;}
+.animated-heading.visible-heading{opacity:1;transform:translate(1px, 0);}
+.animated-occupation{opacity:0;transition:all 2s;will-change:opacity;}
+.animated-occupation.visible-occupation{opacity:1;}
+.animated-text{opacity:0;transform:translate(0, 130px);transition:all 4s;will-change:transform, opacity;}
+.animated-text.visible-text{opacity:1;transform:translate(0, 10px);}
+/*End Scroll Triggered Animations*/
+
+
+
+
+	
+
+/*Parallax*/
+#home-parallax{position:relative;width:100vw;height:100vh;background:#000000;overflow:hidden;}
+#home-parallax .home-parallax-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/14.svg) center;background-size:cover;}
+#home-parallax .home-parallax-about-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/13.svg) center;background-size:cover;}
+#home-parallax .home-parallax-contact-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/03.svg) center;background-size:cover;}
+#home-parallax .home-parallax-portfolio-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/06.svg) center;background-size:cover;}
+#home-parallax .home-parallax-resume-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/05.svg) center;background-size:cover;}
+#home-parallax .home-parallax-work-one-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/27.svg) center;background-size:cover;}
+#home-parallax .home-parallax-work-two-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/26.svg) center;background-size:cover;}
+#home-parallax .home-parallax-work-three-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/14.svg) center;background-size:cover;}
+#home-parallax .home-parallax-archive-bg{position:absolute;top:0;left:0;right:0;bottom:0;background: url(../images/backgrounds/shape-backgrounds/21.svg) center;background-size:cover;}
+#home-parallax .home-parallax-header-container{position:relative;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:table;}
+#home-parallax .home-parallax-title-slogan-container{width:700px;display:table-cell;vertical-align:middle;}
+.home-parallax-job-title{font-family:custom2 !important;font-size:2.35em !important;text-align:center;color:#6ab3e7;}
+.home-parallax-slogan{text-align:center;position:relative;top:10px;font-size:1.55em !important;}
+/*End Parallax*/
+
+
+
+
+
+
+/*Home*/
+.home-intro-container{margin:0 0 0 0;padding:10em 0 0 0;}
+.nacl-home-intro-logo{width:80%;height:auto;display:block;margin:0 auto -10em auto;}
+.nacl-home-intro-container{margin:0 0 0 0;padding:0 0 0 0;}
+.nacl-heading-img{width:80%;height:auto;display:block;margin:0 auto;}
+.nacl-home-intro-row{}
+.nacl-home-intro-image-column{}
+.nacl-home-intro-information-column{}
+.title-typeface-regular{font-family:custom3;font-size:3.6em;color:#b0ffc3;text-align:center;}
+.title-typeface-bold{font-family:custom1;font-size:1em;color:#b0ffc3;}
+.slogan{font-family:custom1;font-size:1.55em;color:#b1dfff;margin-top:3px;text-align:center;}
+.home-intro-information-container{margin:15em 0 0 0;padding:0 0 0 2em;}
+.empathizing-information-container{margin:0 0 0 0;padding:0 0 0 2em !important;}
+.defining-information-container{margin:0 0 0 0;padding:0 0 0 2em !important;}
+.ideating-information-container{margin:0 0 0 0;padding:0 0 0 2em !important;}
+.prototyping-information-container{margin:0 0 0 0;padding:0 0 0 2em !important;}
+.testing-information-container{margin:0 0 0 0;padding:0 0 0 2em !important;}
+/*End Home*/
+
+
+
+
+/*About*/
+#about{}
+.about-container{padding:3em 0 0 0;}
+.nacl-about-information-container{padding:0 0 0 1em;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:86%;height:auto;display:block;margin:15em auto 3em auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{color:#0e74bc;position:relative;left:-132px;}
+/*End About*/
+
+
+
+
+/*Main Sections*/
+.main-container{margin:20em 0 20em 0;padding:22em 0 0 0;}
+.main-row{}
+.main-image-column{}
+.main-information-column{}
+/*End Main Sections*/
+
+
+
+
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0 50px 0;padding:0 0 25px 1em;}
+.summary-information-container{padding:5em 1em 0 2em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:100% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:200px;font-family:custom1;font-size:1.3em;background-color:#0e74bc;color:#000000;padding:.5em 1em;display:block;text-decoration:none;font-weight:bold;text-align:center;margin-bottom:30px;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:20px;}
+.project-subheading{margin-bottom:20px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{color:#0e74bc;position:relative;left:-83px !important;}
+.page-parallax-heading-case-study-dhs{color:#0e74bc;position:relative;left:-54px !important;}
+.page-parallax-heading-case-study-food-coma{color:#0e74bc;position:relative;left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{color:#0e74bc;position:relative;left:0 !important;}
+.summary-logo-image{width:300px;height:auto;display:block;margin:15em auto 0 auto;}
+.mockup-image{width:500px;height:auto;display:block;margin:23em auto 0 auto;}
+.interview-transcripts-scroll-box{font-family:custom3;width:96%;height:auto;margin:0 0 0 1em;padding:2.5em;background-color:#ffffff;color:#000000;font-size:1.8em;overflow:auto;}
+.interview-transcripts-heading{color:#000000;margin-bottom:.5em;}
+.interview-transripts-answer{color:#0e74bc !important;font-size:1em !important;}
+.interview-plan-scroll-box{font-family:custom3;width:96%;height:auto;margin:0 0 0 1em;padding:2.5em;background-color:#ffffff;color:#000000;font-size:1.8em;overflow:auto;}
+.nacl-flex-row{display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.nacl-flex-column{flex:50%;height:100%;}
+/*End Case Studies*/
+
+
+
+
+
+
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 0;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:1.5em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{color:#0e74bc;position:relative;left:-122px !important;}
+/*End Archive*/
+
+
+
+
+
+
+
+/*Resume*/
+.nacl-resume-container{font-size:2em;width:100%;color:#ffffff;line-height:1.25;display:block;margin:8em auto 0 auto;position:relative;z-index:1;}
+.nacl-resume-black{font-size:1.4em;font-family:custom8;}
+.nacl-resume-bold{font-family:custom2;font-size:1.15em;}
+.nacl-resume-semi-bold{font-family:custom7;}
+.nacl-resume-thin{font-family:custom0;}
+.nacl-resume-light{font-family:custom3;}
+.nacl-resume-thin-italic{font-family:custom6;}
+.nacl-resume-unordered-list{font-family:custom0;list-style-type:circle;}
+.nacl-resume-list-item{}
+.nacl-resume-btn{font-family:custom1;font-size:1.3em;background-color:#0e74bc;color:#000000 !important;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;display:block;text-decoration:none;font-weight:bold;}
+.nacl-resume-btn:link{color:#000000 !important;text-decoration:none;}
+.nacl-resume-btn:visited{color:#000000 !important;text-decoration:none;}
+.nacl-resume-btn:hover{color:#000000 !important;text-decoration:none;background-color:#0D65A3;cursor:pointer;}
+.nacl-resume-btn:active{color:#000000 !important;text-decoration:none;}
+.page-parallax-heading-resume{color:#0e74bc;position:relative;left:-120px;}
+.nacl-resume-logo-img{width:350px;float:right;margin-bottom:6em;}
+/*End Resume*/
+
+
+
+
+
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:0;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:16em;}
+.nacl-social-media-container{padding:6em 0 8em 0;}
+#nacl-contact-form-name{width:100%;height:40px;font-family:custom1;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;font-family:custom1;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;font-family:custom1;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;font-family:custom1;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-family:custom2 !important;font-size:1.6em !important;color:#ffffff;}
+.nacl-contact-form-submit-btn{font-family:custom1;font-size:1.3em;background-color:#0e74bc;color:#ffffff;padding:.5em 2.5em;display:block;text-decoration:none;font-weight:bold;}
+.nacl-contact-form-submit-btn:hover{background-color:#0D65A3;cursor:pointer;}
+.social-button{width:100px;height:75px;color:#ffffff;font-size:2.5em !important;cursor:pointer;text-align:center;padding:20px 0 0 0;position:relative;top:30px;display:block;margin:25px auto;}
+.fa-facebook{background:#3b5998;}
+.fa-behance{background:#000b1d;}
+.fa-behance{background:#000b1d;}
+.fa-linkedin{background:#0274b3;}
+.fa-facebook{background:#3b5998;}
+.fa-twitter{background:#55acee;}
+.fa-instagram{background:#125688;}
+.fa-pinterest{background:#cb2027;}
+.fa-dribbble{background:#ea4c89;}
+.fa-vimeo{background:#45bbff;}
+.fa-tumblr{background:#2c4762;}
+.page-parallax-heading-contact{color:#0e74bc;position:relative;left:-121px !important;}
+/*End Contact*/
+
+
+
+
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 .5em 0 .5em;}
+.research-objective-information-container{padding:0 .5em 0 .5em;}
+.interview-plan-information-container{padding:0 .5em 0 .5em;}
+.interview-plan-questions-information-container{padding:0 .5em 0 .5em;}
+.user-interviews-information-container{padding:0 .5em 0 .5em;}
+.interview-transcripts-information-container{padding:0 .5em 0 .5em;}
+.card-sorting-information-container{padding:0 .5em 0 .5em;}
+
+.affinity-diagram-information-container{padding:0 .5em 0 .5em;}
+.empathy-map-information-container{padding:0 .5em 0 .5em;}
+.user-persona-information-container{padding:0 .5em 0 .5em;}
+.user-insight-statement-information-container{padding:0 .5em 0 .5em;}
+.problem-statement-information-container{padding:0 .5em 0 .5em;}
+.user-story-information-container{padding:0 .5em 0 .5em;}
+.competitor-analysis-information-container{padding:0 .5em 0 .5em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 .5em 0 .5em;}
+.i-like-i-wish-i-want-information-container{padding:0 .5em 0 .5em;}
+.feature-prioritization-matrix-information-container{padding:0 .5em 0 .5em;}
+.value-proposition-canvas-information-container{padding:0 .5em 0 .5em;}
+.value-proposition-statement-information-container{padding:0 .5em 0 .5em;}
+.user-scenario-information-container{padding:0 .5em 0 .5em;}
+.storyboard-information-container{padding:0 .5em 0 .5em;}
+.user-journey-map-information-container{padding:0 .5em 0 .5em;}
+.task-flow-information-container{padding:0 .5em 0 .5em;}
+.wire-flow-information-container{padding:0 .5em 0 .5em;}
+.heuristic-evaluation-information-container{padding:0 .5em 0 .5em;}
+.sitemap-information-container{padding:0 .5em 0 .5em;}
+.user-flow-information-container{padding:0 .5em 0 .5em;}
+.user-onboarding-information-container{padding:0 .5em 0 .5em;}
+
+.style-guide-information-container{padding:0 .5em 0 .5em;}
+.wireframes-information-container{padding:0 .5em 0 .5em;}
+.prototypes-information-container{padding:0 .5em 0 .5em;}
+
+.guerilla-user-testing-information-container{padding:0 .5em 0 .5em;}
+.usability-testing-information-container{padding:0 .5em 0 .5em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.img-container{}
+.empathize-image{width:96%;height:auto;display:block;margin:22em auto 3em auto;}
+.proto-persona-image{width:100%;height:auto;display:block;margin:15em 1em 0 .5em;}
+.research-objective-image{width:96%;height:225px;display:block;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;height:auto;position:absolute;z-index:-1;top:0;left:0;}
+.interview-plan-image{width:96%;height:500px;display:block;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;height:auto;position:absolute;z-index:-1;top:0;left:0;}
+.user-interviews-image{width:96%;height:auto;display:block;margin:0 auto;}
+.interview-transcripts-image{width:96%;height:auto;display:block;margin:0 auto;}
+.card-sorting-image{width:96%;height:auto;display:block;margin:0 auto;}
+
+.define-image{width:85%;height:auto;display:block;margin:22em auto 3em auto;}
+.affinity-diagram-image{width:96%;height:auto;display:block;margin:0 auto;}
+.empathy-map-image{width:96%;height:auto;display:block;margin:0 auto;}
+.user-persona-image{width:96%;height:auto;display:block;margin:0 auto;}
+.user-insight-statement-image{width:96%;height:475px;display:block;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;height:auto;position:absolute;z-index:-1;top:0;left:0;}
+.problem-statement-image{width:96%;height:475px;display:block;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;height:auto;position:absolute;z-index:-1;top:0;left:0;}
+.user-story-image{width:96%;height:auto;display:block;margin:0 auto;}
+.competitor-analysis-image{width:96%;height:auto;display:block;margin:0 auto;}
+
+.ideate-image{width:90%;height:auto;display:block;margin:22em auto 3em auto;}
+.i-like-i-wish-what-if-image{width:96%;height:auto;display:block;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;height:auto;display:block;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;height:auto;display:block;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;height:auto;display:block;margin:0 auto;}
+.value-proposition-statement-image{width:96%;height:475px;display:block;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;height:auto;position:absolute;z-index:-1;top:0;left:0;}
+.user-scenario-image{width:96%;height:auto;display:block;margin:0 auto;}
+.storyboard-image{width:96%;height:auto;display:block;margin:0 auto;}
+.user-journey-map-image{width:96%;height:auto;display:block;margin:0 auto;}
+
+.task-flow-image{width:96%;height:auto;display:block;margin:0 auto;}
+.wire-flow-image{width:90%;height:auto;display:block;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;height:auto;display:block;margin:0 auto;}
+.sitemap-image{width:96%;height:auto;display:block;margin:0 auto;}
+.user-flow-image{width:96%;height:auto;display:block;margin:0 auto;}
+.user-onboarding-image{width:96%;height:auto;display:block;margin:0 auto;}
+
+
+.prototype-image{width:96%;height:auto;display:block;margin:22em auto 3em auto;}
+.style-guide-image{width:96%;height:auto;display:block;margin:0 auto;}
+.wireframe-image{width:96%;height:auto;display:block;margin:0 auto;}
+.prototypes-image{width:96%;height:auto;display:block;margin:0 auto;}
+
+.test-image{width:90%;height:auto;display:block;margin:22em auto 3em auto;}
+.guerrilla-user-testing-image{width:96%;height:auto;display:block;margin:0 auto;}
+.usability-testing-image{width:96%;height:auto;display:block;margin:0 auto;}
+/*End Main Images*/
+
+
+
+
+
+/*Footer*/
+footer{height:75px;background-color:#dddddd;color:#000000 !important;font-size:1.4em !important;font-family:custom2 !important;padding:20px 0;position:relative;bottom:0;width:100%;z-index:100;text-align:center;}
+.footer-container{padding:27px 0;}
+/*End Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Size Column Styles*/
+@media (min-width:576px){
+	.nacl-col.m01{width:8.33333%}
+	.nacl-col.m02{width:16.66666%}
+	.nacl-col.m03{width:24.99999%}
+	.nacl-col.m04{width:33.33333%}
+	.nacl-col.m05{width:41.66666%}
+	.nacl-col.m06{width:49.99999%}
+	.nacl-col.m07{width:58.33333%}
+	.nacl-col.m08{width:66.66666%}
+	.nacl-col.m09{width:74.99999%}
+	.nacl-col.m10{width:83.33333%}
+	.nacl-col.m11{width:91.66666%}
+	.nacl-col.m12{width:99.99999%}
+
+	
+	
+	
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:4.2em !important;line-height:.9;}
+h2{font-size:2.37em !important;line-height:1.2;left:810px;}
+h3{font-size:3em !important;line-height:1.3;}
+h4{font-size:2.2em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:1.8em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:1.9em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{-webkit-box-shadow:-25px 25px 19px -12px rgba(0,0,0,0.75);-moz-box-shadow:-25px 25px 19px -12px rgba(0,0,0,0.75);box-shadow:-25px 25px 19px -12px rgba(0,0,0,0.75);}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:1.5em;padding:50px 25px;margin:5px;}
+.nested-text{top:0;left:0;margin:1em 1em 0 1em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:2.63em !important;}
+.home-parallax-slogan{top:10px;font-size:1.75em !important;}
+/*End Parallax*/	
+
+	
+
+	
+/*Home*/
+.home-container{margin:0 0 0 0;padding:25em 0 0 0;}
+.nacl-home-intro-logo{width:400px;margin:20em auto 0 auto;}
+.nacl-portfolio-main-heading-container{margin:12em 22em 0 0;}
+.nacl-portfolio-heading-container{}
+.nacl-heading-img{width:80%;margin:0 auto;}
+.nacl-home-row{}
+.nacl-home-image-column{}
+.nacl-home-information-column{}
+.title-typeface-regular{font-size:7em;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:3em;left:0;top:-45px;}
+.home-intro-information-container{margin:2em 0 0 0;padding:1em 2em 0 2em;}
+.empathizing-information-container{margin:2em 0 0 0;padding:1em 2em 0 2em !important;}
+.defining-information-container{margin:2em 0 0 0;padding:1em 2em 0 2em !important;}
+.ideating-information-container{margin:2em 0 0 0;padding:1em 2em 0 2em !important;}
+.prototyping-information-container{margin:2em 0 0 0;padding:1em 2em 0 2em !important;}
+.testing-information-container{margin:4em 0 0 0;padding:1em 2em 6em 2em !important;}
+/*End Home*/
+
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:20em 0 0 0;}
+.nacl-about-information-container{padding:2em 1em 0 1em;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:60%;margin:15em auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-150px;}
+/*End About*/
+
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 2em 2em 2em;}
+.summary-information-container{padding:5em 1em 0 2em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:100% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:35px;}
+.project-subheading{margin-bottom:10px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-94px !important;}
+.page-parallax-heading-case-study-dhs{left:-40px !important;}
+.page-parallax-heading-case-study-food-coma{left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:350px;margin:15em auto 0 auto;}
+.mockup-image{width:600px;margin:19em auto 10em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:1.6em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 1em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2.7em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-138px !important;}
+/*End Archive*/	
+	
+
+	
+	
+	
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:13em;padding:0 .5em;}
+.nacl-social-media-container{padding:0 .5em 0 .5em;margin-top:7em;margin-bottom:7em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:100px;height:75px;font-size:2.2em !important;padding:20px 0 0 0;top:30px;margin:0 10px;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-137px !important;}
+/*End Contact*/
+	
+	
+	
+/*Resume*/
+.nacl-resume-container{width:100%;}
+
+.nacl-resume-btn{font-size:1.3em;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-145px;}
+/*End Resume*/	
+	
+	
+
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 0 0 .5em;}
+.research-objective-information-container{padding:0 0 0 .5em;}
+.interview-plan-information-container{padding:0 0 0 .5em;}
+.interview-plan-questions-information-container{padding:0 0 0 .5em;}
+.user-interviews-information-container{padding:0 0 0 .5em;}
+.interview-transcripts-information-container{padding:0 0 0 .5em;}
+.card-sorting-information-container{padding:0 0 0 .5em;}
+
+.affinity-diagram-information-container{padding:0 0 0 .5em;}
+.empathy-map-information-container{padding:0 0 0 .5em;}
+.user-persona-information-container{padding:0 0 0 .5em;}
+.user-insight-statement-information-container{padding:0 0 0 .5em;}
+.problem-statement-information-container{padding:0 0 0 .5em;}
+.user-story-information-container{padding:0 0 0 .5em;}
+.competitor-analysis-information-container{padding:0 0 0 .5em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 0 0 .5em;}
+.i-like-i-wish-i-want-information-container{padding:0 0 0 .5em;}
+.feature-prioritization-matrix-information-container{padding:0 0 0 .5em;}
+.value-proposition-canvas-information-container{padding:0 0 0 .5em;}
+.value-proposition-statement-information-container{padding:0 0 0 .5em;}
+.user-scenario-information-container{padding:0 0 0 .5em;}
+.storyboard-information-container{padding:0 0 0 .5em;}
+.user-journey-map-information-container{padding:0 0 0 .5em;}
+.task-flow-information-container{padding:0 0 0 .5em;}
+.wire-flow-information-container{padding:0 0 0 .5em;}
+.heuristic-evaluation-information-container{padding:0 0 0 .5em;}
+.sitemap-information-container{padding:0 0 0 .5em;}
+.user-flow-information-container{padding:0 0 0 .5em;}
+.user-onboarding-information-container{padding:0 0 0 .5em;}
+
+.style-guide-information-container{padding:0 0 0 .5em;}
+.wireframes-information-container{padding:0 0 0 .5em;}
+.prototypes-information-container{padding:0 0 0 .5em;}
+
+.guerilla-user-testing-information-container{padding:0 0 0 .5em;}
+.usability-testing-information-container{padding:0 0 0 .5em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:65%;margin:22em auto 0 auto;}
+.proto-persona-image{width:90%;margin:0 0 0 4em;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:60%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:73%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:96%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:96%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:90%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:73%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:75%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+	
+	
+	
+
+
+
+	
+	
+}
+
+
+/*Large Size Column Styles*/
+@media (min-width:768px){
+	.nacl-col.l01{width:8.33333%}
+	.nacl-col.l02{width:16.66666%}
+	.nacl-col.l03{width:24.99999%}
+	.nacl-col.l04{width:33.33333%}
+	.nacl-col.l05{width:41.66666%}
+	.nacl-col.l06{width:49.99999%}
+	.nacl-col.l07{width:58.33333%}
+	.nacl-col.l08{width:66.66666%}
+	.nacl-col.l09{width:74.99999%}
+	.nacl-col.l10{width:83.33333%}
+	.nacl-col.l11{width:91.66666%}
+	.nacl-col.l12{width:99.99999%}
+	
+
+	
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:5em !important;line-height:.9;}
+h2{font-size:2.82em !important;line-height:1.2;left:810px;}
+h3{font-size:3em !important;line-height:1.3;}
+h4{font-size:2.2em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:1.8em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:1.9em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:1.5em;padding:50px 25px;margin:5px;}
+.nested-text{top:0;left:0;margin:2em 2em 0 2em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:3.17em !important;}
+.home-parallax-slogan{top:10px;font-size:2.08em !important;}
+/*End Parallax*/	
+
+	
+
+	
+/*Home*/
+.home-container{margin:0 0 0 0;padding:25em 0 0 0;}
+.nacl-home-intro-logo{width:475px;margin:20em auto 0 auto;}
+.nacl-portfolio-main-heading-container{margin:12em 22em 0 0;}
+.nacl-portfolio-heading-container{}
+.nacl-heading-img{width:80%;margin:0 auto;}
+.nacl-home-row{}
+.nacl-home-image-column{}
+.nacl-home-information-column{}
+.title-typeface-regular{font-size:7em;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:3em;left:0;top:-45px;}
+.home-intro-information-container{margin:2em 0 0 0;padding:1em 4em 0 4em;}
+.empathizing-information-container{margin:2em 0 0 0;padding:1em 4em 0 4em !important;}
+.defining-information-container{margin:2em 0 0 0;padding:1em 4em 0 4em !important;}
+.ideating-information-container{margin:2em 0 0 0;padding:1em 4em 0 4em !important;}
+.prototyping-information-container{margin:2em 0 0 0;padding:1em 4em 0 4em !important;}
+.testing-information-container{margin:4em 0 0 0;padding:1em 4em 6em 4em !important;}
+/*End Home*/
+
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:20em 0 0 0;}
+.nacl-about-information-container{padding:2em 6em 0 6em;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:45%;margin:15em auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-180px;}
+/*End About*/
+
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 4em 0 4em;}
+.summary-information-container{padding:5em 4em 0 4em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:100% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:35px;}
+.project-subheading{margin-bottom:10px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-113px !important;}
+.page-parallax-heading-case-study-dhs{left:-72px !important;}
+.page-parallax-heading-case-study-food-coma{left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:400px;margin:17em auto 0 auto;}
+.mockup-image{width:850px;margin:19em auto 19em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:1.8em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 1em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2.7em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-166px !important;}
+/*End Archive*/	
+
+
+
+	
+	
+/*Resume*/
+.nacl-resume-container{width:98%;}
+
+.nacl-resume-btn{font-size:1.3em;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-165px !important;}
+/*End Resume*/
+	
+
+	
+	
+	
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:13em;padding:0 .5em;}
+.nacl-social-media-container{padding:0 .5em 0 .5em;margin-top:7em;margin-bottom:7em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:150px;height:100px;font-size:4em !important;padding:20px 0 0 0;top:30px;margin:0 10px;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-165px !important;}
+/*End Contact*/
+	
+	
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 0 0 .5em;}
+.research-objective-information-container{padding:0 0 0 .5em;}
+.interview-plan-information-container{padding:0 0 0 .5em;}
+.interview-plan-questions-information-container{padding:0 0 0 .5em;}
+.user-interviews-information-container{padding:0 0 0 .5em;}
+.interview-transcripts-information-container{padding:0 0 0 .5em;}
+.card-sorting-information-container{padding:0 0 0 .5em;}
+
+.affinity-diagram-information-container{padding:0 0 0 .5em;}
+.empathy-map-information-container{padding:0 0 0 .5em;}
+.user-persona-information-container{padding:0 0 0 .5em;}
+.user-insight-statement-information-container{padding:0 0 0 .5em;}
+.problem-statement-information-container{padding:0 0 0 .5em;}
+.user-story-information-container{padding:0 0 0 .5em;}
+.competitor-analysis-information-container{padding:0 0 0 .5em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 0 0 .5em;}
+.i-like-i-wish-i-want-information-container{padding:0 0 0 .5em;}
+.feature-prioritization-matrix-information-container{padding:0 0 0 .5em;}
+.value-proposition-canvas-information-container{padding:0 0 0 .5em;}
+.value-proposition-statement-information-container{padding:0 0 0 .5em;}
+.user-scenario-information-container{padding:0 0 0 .5em;}
+.storyboard-information-container{padding:0 0 0 .5em;}
+.user-journey-map-information-container{padding:0 0 0 .5em;}
+.task-flow-information-container{padding:0 0 0 .5em;}
+.wire-flow-information-container{padding:0 0 0 .5em;}
+.heuristic-evaluation-information-container{padding:0 0 0 .5em;}
+.sitemap-information-container{padding:0 0 0 .5em;}
+.user-flow-information-container{padding:0 0 0 .5em;}
+.user-onboarding-information-container{padding:0 0 0 .5em;}
+
+.style-guide-information-container{padding:0 0 0 .5em;}
+.wireframes-information-container{padding:0 0 0 .5em;}
+.prototypes-information-container{padding:0 0 0 .5em;}
+
+.guerilla-user-testing-information-container{padding:0 0 0 .5em;}
+.usability-testing-information-container{padding:0 0 0 .5em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:55%;margin:22em auto 0 auto;}
+.proto-persona-image{width:90%;margin:0 0 0 4em;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:50%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:63%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:96%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:96%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:90%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:63%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:65%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+	
+	
+
+	
+}
+
+
+
+
+/*XL Column Styles*/
+@media (min-width:992px){
+	.nacl-col.xl01{width:8.33333%}
+	.nacl-col.xl02{width:16.66666%}
+	.nacl-col.xl03{width:24.99999%}
+	.nacl-col.xl04{width:33.33333%}
+	.nacl-col.xl05{width:41.66666%}
+	.nacl-col.xl06{width:49.99999%}
+	.nacl-col.xl07{width:58.33333%}
+	.nacl-col.xl08{width:66.66666%}
+	.nacl-col.xl09{width:74.99999%}
+	.nacl-col.xl10{width:83.33333%}
+	.nacl-col.xl11{width:91.66666%}
+	.nacl-col.xl12{width:99.99999%}
+	
+
+	
+	
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:6em !important;line-height:.9;}
+h2{font-size:3.4em !important;line-height:1.2;left:810px;}
+h3{font-size:3em !important;line-height:1.3;}
+h4{font-size:2.2em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:1.8em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:1.9em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:1.5em;padding:50px 25px;margin:5px;}
+.nested-text{top:0;left:0;margin:2em 2em 0 2em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:3.8em !important;}
+.home-parallax-slogan{top:10px;font-size:2.49em !important;}
+/*End Parallax*/	
+
+	
+
+	
+/*Home*/
+.home-container{margin:0 0 0 0;padding:25em 0 0 0;}
+.nacl-home-intro-logo{width:550px;margin:20em auto 0 auto;}
+.nacl-portfolio-main-heading-container{margin:12em 22em 0 0;}
+.nacl-portfolio-heading-container{}
+.nacl-heading-img{width:80%;margin:0 auto;}
+.nacl-home-row{}
+.nacl-home-image-column{}
+.nacl-home-information-column{}
+.title-typeface-regular{font-size:7em;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:3em;left:0;top:-45px;}
+.home-intro-information-container{margin:2em 0 0 0;padding:1em 8em 0 8em;}
+.empathizing-information-container{margin:2em 0 0 0;padding:1em 8em 0 8em !important;}
+.defining-information-container{margin:2em 0 0 0;padding:1em 8em 0 8em !important;}
+.ideating-information-container{margin:2em 0 0 0;padding:1em 8em 0 8em !important;}
+.prototyping-information-container{margin:2em 0 0 0;padding:1em 8em 0 8em !important;}
+.testing-information-container{margin:4em 0 0 0;padding:1em 8em 6em 8em !important;}
+/*End Home*/
+
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:20em 0 0 0;}
+.nacl-about-information-container{padding:2em 6em 0 6em;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:45%;margin:15em auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-218px;}
+/*End About*/
+
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 4em 0 4em;}
+.summary-information-container{padding:5em 4em 0 4em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:100% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:35px;}
+.project-subheading{margin-bottom:10px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-135px !important;}
+.page-parallax-heading-case-study-dhs{left:-87px !important;}
+.page-parallax-heading-case-study-food-coma{left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:550px;margin:15em auto 0 auto;}
+.mockup-image{width:950px;margin:19em auto 19em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:2.2em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 1em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2.7em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-198px !important;}
+/*End Archive*/	
+
+
+
+/*Resume*/
+.nacl-resume-container{width:90%;}
+
+.nacl-resume-btn{font-size:1.3em;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-195px !important;}
+/*End Resume*/	
+
+	
+	
+	
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:13em;padding:0 4em;}
+.nacl-social-media-container{padding:0 8em 0 0;margin-top:7em;margin-bottom:7em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:175px;height:125px;font-size:5.5em !important;padding:20px 0 0 0;top:30px;margin:0 1em;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-194px !important;}
+/*End Contact*/
+	
+	
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 0 0 .5em;}
+.research-objective-information-container{padding:0 0 0 .5em;}
+.interview-plan-information-container{padding:0 0 0 .5em;}
+.interview-plan-questions-information-container{padding:0 0 0 .5em;}
+.user-interviews-information-container{padding:0 0 0 .5em;}
+.interview-transcripts-information-container{padding:0 0 0 .5em;}
+.card-sorting-information-container{padding:0 0 0 .5em;}
+
+.affinity-diagram-information-container{padding:0 0 0 .5em;}
+.empathy-map-information-container{padding:0 0 0 .5em;}
+.user-persona-information-container{padding:0 0 0 .5em;}
+.user-insight-statement-information-container{padding:0 0 0 .5em;}
+.problem-statement-information-container{padding:0 0 0 .5em;}
+.user-story-information-container{padding:0 0 0 .5em;}
+.competitor-analysis-information-container{padding:0 0 0 .5em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 0 0 .5em;}
+.i-like-i-wish-i-want-information-container{padding:0 0 0 .5em;}
+.feature-prioritization-matrix-information-container{padding:0 0 0 .5em;}
+.value-proposition-canvas-information-container{padding:0 0 0 .5em;}
+.value-proposition-statement-information-container{padding:0 0 0 .5em;}
+.user-scenario-information-container{padding:0 0 0 .5em;}
+.storyboard-information-container{padding:0 0 0 .5em;}
+.user-journey-map-information-container{padding:0 0 0 .5em;}
+.task-flow-information-container{padding:0 0 0 .5em;}
+.wire-flow-information-container{padding:0 0 0 .5em;}
+.heuristic-evaluation-information-container{padding:0 0 0 .5em;}
+.sitemap-information-container{padding:0 0 0 .5em;}
+.user-flow-information-container{padding:0 0 0 .5em;}
+.user-onboarding-information-container{padding:0 0 0 .5em;}
+
+.style-guide-information-container{padding:0 0 0 .5em;}
+.wireframes-information-container{padding:0 0 0 .5em;}
+.prototypes-information-container{padding:0 0 0 .5em;}
+
+.guerilla-user-testing-information-container{padding:0 0 0 .5em;}
+.usability-testing-information-container{padding:0 0 0 .5em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:50%;margin:22em auto 0 auto;}
+.proto-persona-image{width:90%;margin:0 0 0 4em;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:45%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:58%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:96%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:96%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:90%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:58%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:60%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+
+
+	
+	
+	
+
+	
+	
+	
+	
+}
+
+
+
+/*XXL Column Styles*/
+@media (min-width:1200px){
+	.nacl-col.xxl01{width:8.33333%}
+	.nacl-col.xxl02{width:16.66666%}
+	.nacl-col.xxl03{width:24.99999%}
+	.nacl-col.xxl04{width:33.33333%}
+	.nacl-col.xxl05{width:41.66666%}
+	.nacl-col.xxl06{width:49.99999%}
+	.nacl-col.xxl07{width:58.33333%}
+	.nacl-col.xxl08{width:66.66666%}
+	.nacl-col.xxl09{width:74.99999%}
+	.nacl-col.xxl10{width:83.33333%}
+	.nacl-col.xxl11{width:91.66666%}
+	.nacl-col.xxl12{width:99.99999%}
+	
+
+
+	
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:7em !important;line-height:.9;}
+h2{font-size:3.95em !important;line-height:1.2;left:810px;}
+h3{font-size:3em !important;line-height:1.3;}
+h4{font-size:2.2em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:1.8em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:1.9em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:2.8em !important;padding:50px 25px;margin:5px;}
+.nested-text{top:0;left:0;margin:2em 2em 0 2em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:4.4em !important;}
+.home-parallax-slogan{top:10px;font-size:2.9em !important;}
+/*End Parallax*/	
+
+	
+
+	
+/*Home*/
+.home-container{margin:0 0 0 0;padding:25em 0 0 0;}
+.nacl-home-intro-logo{width:500px;margin:20em auto 0 auto;}
+.nacl-portfolio-main-heading-container{margin:12em 22em 0 0;}
+.nacl-portfolio-heading-container{}
+.nacl-heading-img{width:80%;margin:0 auto;}
+.nacl-home-row{}
+.nacl-home-image-column{}
+.nacl-home-information-column{}
+.title-typeface-regular{font-size:7em;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:3em;left:0;top:-45px;}
+.home-intro-information-container{margin:15em 0 0 0;padding:5em 10em 0 0;}
+.empathizing-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.defining-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.ideating-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.prototyping-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.testing-information-container{margin:20em 0 0 0;padding:0 4em 0 0 !important;}
+/*End Home*/
+
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:20em 0 0 0;}
+.nacl-about-information-container{padding:16em 2em 0 2em;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:95%;margin:19em auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-250px;}
+/*End About*/
+
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 4em 0 4em;}
+.summary-information-container{padding:5em 4em 0 4em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:100% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:35px;}
+.project-subheading{margin-bottom:10px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-156px !important;}
+.page-parallax-heading-case-study-dhs{left:-102px !important;}
+.page-parallax-heading-case-study-food-coma{left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:600px;margin:12em auto 0 auto;}
+.mockup-image{width:1100px;margin:19em auto 19em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:2.4em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 1em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2.7em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-230px !important;}
+/*End Archive*/	
+
+
+
+/*Resume*/
+.nacl-resume-container{width:90%;}
+
+.nacl-resume-btn{font-size:1.3em;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-229px !important;}
+/*End Resume*/	
+
+	
+	
+	
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:13em;padding:0 4em;}
+.nacl-social-media-container{padding:0 8em 0 0;margin-top:7em;margin-bottom:7em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:175px;height:125px;font-size:5.5em !important;padding:20px 0 0 0;top:30px;margin:0 1em;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-230px !important;}
+/*End Contact*/
+	
+
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 0 0 4em;}
+.research-objective-information-container{padding:0 0 0 4em;}
+.interview-plan-information-container{padding:0 0 0 4em;}
+.interview-plan-questions-information-container{padding:0 0 0 4em;}
+.user-interviews-information-container{padding:0 0 0 4em;}
+.interview-transcripts-information-container{padding:0 0 0 4em;}
+.card-sorting-information-container{padding:0 0 0 4em;}
+
+.affinity-diagram-information-container{padding:0 0 0 4em;}
+.empathy-map-information-container{padding:0 0 0 4em;}
+.user-persona-information-container{padding:0 0 0 4em;}
+.user-insight-statement-information-container{padding:0 0 0 4em;}
+.problem-statement-information-container{padding:0 0 0 4em;}
+.user-story-information-container{padding:0 0 0 4em;}
+.competitor-analysis-information-container{padding:0 0 0 4em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 0 0 4em;}
+.i-like-i-wish-i-want-information-container{padding:0 0 0 4em;}
+.feature-prioritization-matrix-information-container{padding:0 0 0 4em;}
+.value-proposition-canvas-information-container{padding:0 0 0 4em;}
+.value-proposition-statement-information-container{padding:0 0 0 4em;}
+.user-scenario-information-container{padding:0 0 0 4em;}
+.storyboard-information-container{padding:0 0 0 4em;}
+.user-journey-map-information-container{padding:0 0 0 4em;}
+.task-flow-information-container{padding:0 0 0 4em;}
+.wire-flow-information-container{padding:0 0 0 4em;}
+.heuristic-evaluation-information-container{padding:0 0 0 4em;}
+.sitemap-information-container{padding:0 0 0 4em;}
+.user-flow-information-container{padding:0 0 0 4em;}
+.user-onboarding-information-container{padding:0 0 0 4em;}
+
+.style-guide-information-container{padding:0 0 0 4em;}
+.wireframes-information-container{padding:0 0 0 4em;}
+.prototypes-information-container{padding:0 0 0 4em;}
+
+.guerilla-user-testing-information-container{padding:0 0 0 4em;}
+.usability-testing-information-container{padding:0 0 0 4em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:60%;margin:22em auto 0 auto;}
+.proto-persona-image{width:90%;margin:0 0 0 4em;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:55%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:68%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:96%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:96%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:90%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:68%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:70%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+
+
+	
+
+
+
+
+	
+	
+}
+
+
+
+
+/*XXXL Size Column Styles*/
+@media (min-width:1400px){
+	.nacl-col.xxxl01{width:8.33333%}
+	.nacl-col.xxxl02{width:16.66666%}
+	.nacl-col.xxxl03{width:24.99999%}
+	.nacl-col.xxxl04{width:33.33333%}
+	.nacl-col.xxxl05{width:41.66666%}
+	.nacl-col.xxxl06{width:49.99999%}
+	.nacl-col.xxxl07{width:58.33333%}
+	.nacl-col.xxxl08{width:66.66666%}
+	.nacl-col.xxxl09{width:74.99999%}
+	.nacl-col.xxxl10{width:83.33333%}
+	.nacl-col.xxxl11{width:91.66666%}
+	.nacl-col.xxxl12{width:99.99999%}
+
+	
+	
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:8.5em !important;line-height:.9;}
+h2{font-size:4.78em !important;line-height:1.2;left:810px;}
+h3{font-size:3em !important;line-height:1.3;}
+h4{font-size:2.8em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:2.4em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:2.2em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:2em !important;padding:50px 25px;margin:5px;}
+.nested-text{top:0;left:0;margin:2em 2em 0 2em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:5.35em !important;}
+.home-parallax-slogan{top:10px;font-size:3.55em !important;}
+/*End Parallax*/	
+
+	
+
+	
+/*Home*/
+.home-container{margin:0 0 0 0;padding:25em 0 0 0;}
+.nacl-home-intro-logo{width:600px;margin:20em auto 0 auto;}
+.nacl-portfolio-main-heading-container{margin:12em 22em 0 0;}
+.nacl-portfolio-heading-container{}
+.nacl-heading-img{width:80%;margin:0 auto;}
+.nacl-home-row{}
+.nacl-home-image-column{}
+.nacl-home-information-column{}
+.title-typeface-regular{font-size:7em;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:3em;left:0;top:-45px;}
+.home-intro-information-container{margin:15em 0 0 0;padding:5em 10em 0 0;}
+.empathizing-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.defining-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.ideating-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.prototyping-information-container{margin:15em 0 0 0;padding:15em 4em 0 0 !important;}
+.testing-information-container{margin:20em 0 0 0;padding:0 4em 0 0 !important;}
+/*End Home*/
+
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:20em 0 0 0;}
+.nacl-about-information-container{padding:0 4em 0 0;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:28%;margin:0 auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-305px;}
+/*End About*/
+
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 4em 0 4em;}
+.summary-information-container{padding:15em 4em 0 4em;}
+.project-summary-container{}
+.my-responsibilities-container{padding:3em 0 0 0;}
+.work-image{width:92% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:20px;}
+.project-subheading{margin-bottom:20px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-194px !important;}
+.page-parallax-heading-case-study-dhs{left:-125px !important;}
+.page-parallax-heading-case-study-food-coma{left:0 !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:450px;margin:29em auto 0 auto;}
+.mockup-image{width:1200px;margin:19em auto 10em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:2.6em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+.nacl-flex-row{display:flex;flex-direction:row;}
+.nacl-flex-column{flex:50%;height:100%;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 1em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-278px !important;}
+/*End Archive*/	
+
+
+
+/*Resume*/
+.nacl-resume-container{width:90%;}
+
+.nacl-resume-btn{font-size:1.3em;padding:.5em 2.5em;margin-top:1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-278px !important;}
+/*End Resume*/	
+
+	
+	
+	
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:20em;padding:0 4em;}
+.nacl-social-media-container{padding:0 8em 0 0;margin-top:25em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:125px;height:100px;font-size:3.5em !important;padding:20px 0 0 0;top:30px;margin:0 0;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-277px !important;}
+/*End Contact*/
+	
+
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 2em 0 4em;}
+.research-objective-information-container{padding:0 2em 0 4em;}
+.interview-plan-information-container{padding:0 2em 0 4em;}
+.interview-plan-questions-information-container{padding:0 2em 0 4em;}
+.user-interviews-information-container{padding:0 2em 0 4em;}
+.interview-transcripts-information-container{padding:0 2em 0 4em;}
+.card-sorting-information-container{padding:0 2em 0 4em;}
+
+.affinity-diagram-information-container{padding:0 2em 0 4em;}
+.empathy-map-information-container{padding:0 2em 0 4em;}
+.user-persona-information-container{padding:0 2em 0 4em;}
+.user-insight-statement-information-container{padding:0 2em 0 4em;}
+.problem-statement-information-container{padding:0 2em 0 4em;}
+.user-story-information-container{padding:0 2em 0 4em;}
+.competitor-analysis-information-container{padding:0 2em 0 4em;}
+
+.i-like-i-wish-what-if-information-container{padding:0 2em 0 4em;}
+.i-like-i-wish-i-want-information-container{padding:0 2em 0 4em;}
+.feature-prioritization-matrix-information-container{padding:0 2em 0 4em;}
+.value-proposition-canvas-information-container{padding:0 2em 0 4em;}
+.value-proposition-statement-information-container{padding:0 2em 0 4em;}
+.user-scenario-information-container{padding:0 2em 0 4em;}
+.storyboard-information-container{padding:0 2em 0 4em;}
+.user-journey-map-information-container{padding:0 2em 0 4em;}
+.task-flow-information-container{padding:0 2em 0 4em;}
+.wire-flow-information-container{padding:0 2em 0 4em;}
+.heuristic-evaluation-information-container{padding:0 2em 0 4em;}
+.sitemap-information-container{padding:0 2em 0 4em;}
+.user-flow-information-container{padding:0 2em 0 4em;}
+.user-onboarding-information-container{padding:0 2em 0 4em;}
+
+.style-guide-information-container{padding:0 2em 0 4em;}
+.wireframes-information-container{padding:0 2em 0 4em;}
+.prototypes-information-container{padding:0 2em 0 4em;}
+
+.guerilla-user-testing-information-container{padding:0 2em 0 4em;}
+.usability-testing-information-container{padding:0 2em 0 4em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:60%;margin:22em auto 0 auto;}
+.proto-persona-image{width:96%;margin:14em 0 0 4em;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:96% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:55%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:68%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:90%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:90%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:82%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:68%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:70%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+
+
+
+
+
+	
+}
+
+
+
+
+
+/*UHD Size Column Styles*/
+@media (min-width:2000px){
+	.nacl-col.uhd01{width:8.33333%}
+	.nacl-col.uhd02{width:16.66666%}
+	.nacl-col.uhd03{width:24.99999%}
+	.nacl-col.uhd04{width:33.33333%}
+	.nacl-col.uhd05{width:41.66666%}
+	.nacl-col.uhd06{width:49.99999%}
+	.nacl-col.uhd07{width:58.33333%}
+	.nacl-col.uhd08{width:66.66666%}
+	.nacl-col.uhd09{width:74.99999%}
+	.nacl-col.uhd10{width:83.33333%}
+	.nacl-col.uhd11{width:91.66666%}
+	.nacl-col.uhd12{width:99.99999%}
+	
+
+
+
+
+/*Global*/
+.header-main{}/*fixes main menu positioning.*/
+.menu-item{margin-bottom:-20px;}
+h1{font-size:9.5em !important;line-height:.9;}
+h2{font-size:5.35em !important;line-height:1.2;left:810px;}
+h3{font-size:4em !important;line-height:1.3;}
+h4{font-size:2.8em !important;line-height:1.8;margin-bottom:.5em !important;}
+h5{font-size:2.4em !important;line-height:1.8;}
+h6{font-size:1.2em !important;line-height:1.8;}
+p{font-size:2.2em !important;line-height:1.5 !important;margin-bottom:20px;}
+.list{font-size:2.9em !important;line-height:1.5 !important;margin-bottom:20px;margin-left:20px;}
+li{padding-bottom:30px !important;}
+.shadow{}
+.nacl-video-container{margin:.5em;}
+.nacl-fluid-video{width:600px;}
+.text-box{font-size:3em !important;padding:50px 75px 50px 75px !important;margin:25px;}
+.nested-text{top:0;left:0;margin:2em 2em 0 2em;}
+.nested-text-heading{font-size:1.2em !important;line-height:1.8;}
+/*End Global*/
+
+
+	
+	
+/*Parallax*/
+.home-parallax-job-title{font-size:6em !important;}
+.home-parallax-slogan{top:10px;font-size:4em !important;}
+/*End Parallax*/	
+
+	
+
+	
+
+/*Home*/
+.home-intro-container{margin:0 0 0 0;padding:20em 0 0 0;}
+.nacl-home-intro-logo{width:750px;margin:16em auto 0 auto;}
+.nacl-home-intro-container{margin:10em 0 0 0;padding:0 10em 0 0;}
+.nacl-heading-img{width:70%;}
+.nacl-home-intro-row{}
+.nacl-home-intro-image-column{}
+.nacl-home-intro-information-column{}
+.title-typeface-regular{font-size:3.6em;;}
+.title-typeface-bold{font-size:1em;}
+.slogan{font-size:1.55em;margin-top:3px;}
+.home-intro-information-container{margin:0 0 0 0;padding:18em 10em 0 0;}
+.empathizing-information-container{margin:15em 0 0 0;padding:0 0 0 4em;}
+.defining-information-container{margin:10em 0 0 0;padding:0 4em;}
+.ideating-information-container{margin:18em 0 0 0;padding:0 4em;}
+.prototyping-information-container{margin:5em 0 0 0;padding:0 4em;}
+.testing-information-container{padding:0 4em;}
+/*End Home*/
+	
+	
+	
+	
+/*About*/
+#about{}
+.about-container{padding:25em 0 0 0;}
+.nacl-about-information-container{padding:6em 15em 0 0;}
+.nacl-about-row{}
+.nacl-about-information-column{}
+.nacl-about-image-column{}
+.nacl-about-img{width:48%;margin:0 auto 0 auto;}
+.about-paragraph{margin-bottom:3em;}
+.page-parallax-heading-about{left:-342px;}
+/*End About*/
+
+	
+	
+	
+	
+	
+/*Case Studies*/
+.nacl-portfolio-work-one-image-column{}
+.nacl-portfolio-work-two-image-column{}
+.nacl-portfolio-work-three-image-column{}
+.nacl-work-one-information-column{}
+.nacl-work-two-information-column{}
+.nacl-work-three-information-column{}
+.nacl-case-study-container{margin:8em 0;padding:0 4em 0 4em;}
+.summary-information-container{padding:22em 6em 0 0;}
+.project-summary-container{}
+.my-responsibilities-container{padding:5em 0 0 0;}
+.work-image{width:92% !important;height:auto;display:block;margin:0 auto;}
+.nacl-portfolio-btn{width:300px;font-size:1.5em;padding:.5em 1em;}
+.nacl-portfolio-btn:hover{background-color:#666666;cursor:pointer;}
+.project-heading{margin-top:20px;}
+.project-subheading{margin-bottom:20px;}
+.project-info{margin-bottom:20px;}
+.page-parallax-heading-case-studies{left:-215px !important;}
+.page-parallax-heading-case-study-dhs{left:-143px !important;}
+.page-parallax-heading-case-study-food-coma{left:-2px !important;}
+.page-parallax-heading-case-study-give-a-sock{left:0 !important;}
+.summary-logo-image{width:600px;margin:33em auto 0 auto;}
+.mockup-image{width:1800px;margin:19em auto 10em auto;}
+.interview-transcripts-scroll-box{width:96%;height:800px;margin:0 0 0 1em;padding:3em;font-size:2.8em;}
+.interview-transcripts-heading{margin-bottom:.5em;}
+.interview-transripts-answer{font-size:1em !important;}
+.interview-plan-scroll-box{width:96%;height:700px;margin:0 0 0 1em;padding:2.5em;font-size:1.8em;}
+/*End Case Studies*/
+	
+
+
+	
+/*Archive*/
+.nacl-archive-second-video-row{margin:4em 0;}
+.nacl-archive-second-design-row{margin:4em 0;}
+.nacl-archive-second-artwork-row{margin:4em 0;}
+.nacl-portfolio-main-heading-container{}
+.work-image{width:800px;height:auto;display:block;margin:0 auto;}
+.single-archive-container{padding:0 3em;}
+.archive-paragraph{margin-bottom:2em;}
+.archive-hyperlink{font-size:2.4em !important;margin:.5em 0 0 0;}
+.archive-header{text-align:center;margin:3.5em 0 1em 0;}
+.page-parallax-heading-archive{left:-315px !important;}
+/*End Archive*/	
+
+
+
+
+
+/*Resume*/
+.nacl-resume-container{width:80%;}
+
+.nacl-resume-btn{font-size:.8em;padding:.5em 2em;margin-top:.1em;margin-bottom:8em;}
+.page-parallax-heading-resume{left:-311px !important;}
+/*End Resume*/
+
+
+
+	
+/*Contact*/
+.nacl-main-form-row{}
+.nacl-contact-form-email-row{}
+.nacl-contact-form-message-row{}
+.nacl-contact-form-submit-row{}
+.nacl-social-media-first-row{padding-top:0;}
+.nacl-social-media-second-row{margin-top:3em;}
+.nacl-contact-form-column{}
+.nacl-social-media-column{}
+.nacl-contact-form-name-column{}
+.nacl-contact-form-email-column{}
+.nacl-contact-form-message-column{}
+.nacl-contact-form-submit-column{}
+.nacl-form-container{margin-top:26em;}
+.nacl-social-media-container{padding:2em 0 0 0;margin-top:28em;}
+#nacl-contact-form-name{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-telephone{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-email{width:100%;height:40px;margin-bottom:20px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-message{width:100%;margin-bottom:20px;padding-top:15px;padding-left:1em;margin:.5em 0 3em 0;}
+#nacl-contact-form-submit-btn{}
+#nacl-contact-form{margin:0 0;}
+label{font-size:1.6em !important;}
+.nacl-contact-form-submit-btn{font-size:1.3em;padding:.5em 2.5em;}
+.nacl-contact-form-submit-btn:hover{}
+.social-button{width:175px;height:125px;font-size:5.5em !important;padding:20px 0 0 0;top:30px;margin:0 1em;}
+.fa-facebook{}
+.fa-behance{}
+.fa-behance{}
+.fa-linkedin{}
+.fa-facebook{}
+.fa-twitter{}
+.fa-instagram{}
+.fa-pinterest{}
+.fa-dribbble{}
+.fa-vimeo{}
+.fa-tumblr{}
+.page-parallax-heading-contact{left:-310px !important;}
+/*End Contact*/
+	
+
+	
+	
+/*Main Information Containers*/
+.proto-persona-information-container{padding:0 4em 0 2em;}
+.research-objective-information-container{padding:0 4em 0 2em;}
+.interview-plan-information-container{padding:0 4em 0 2em;}
+.interview-plan-questions-information-container{padding:0 4em 0 2em;}
+.user-interviews-information-container{padding:0 4em 0 2em;}
+.interview-transcripts-information-container{padding:0 4em 0 2em;}
+.card-sorting-information-container{padding:0 4em 0 2em;}
+
+.affinity-diagram-information-container{padding:0 4em 0 2em;}
+.empathy-map-information-container{padding:0 4em 0 2em;}
+.user-persona-information-container{padding:0 4em 0 2em;}
+.user-insight-statement-information-container{padding:9em 4em 0 2em;}
+.problem-statement-information-container{padding:9em 4em 0 2em;}
+.user-story-information-container{padding:0 4em 0 2em;}
+.competitor-analysis-information-container{padding:0 4em 0 2em;}
+
+.i-like-i-wish-what-if-information-container{padding:20em 0 0 4em;}
+.i-like-i-wish-i-want-information-container{padding:20em 0 0 4em;}
+.feature-prioritization-matrix-information-container{padding:0 4em 0 2em;}
+.value-proposition-canvas-information-container{padding:0 4em 0 2em;}
+.value-proposition-statement-information-container{padding:9em 4em 0 2em;}
+.user-scenario-information-container{padding:0 4em 0 2em;}
+.storyboard-information-container{padding:0 4em 0 2em;}
+.user-journey-map-information-container{padding:0 4em 0 2em;}
+.task-flow-information-container{padding:0 4em 0 2em;}
+.wire-flow-information-container{padding:0 4em 0 2em;}
+.heuristic-evaluation-information-container{padding:0 4em 0 2em;}
+.sitemap-information-container{padding:0 4em 0 2em;}
+.user-flow-information-container{padding:0 4em 0 2em;}
+.user-onboarding-information-container{padding:0 4em 0 2em;}
+
+.style-guide-information-container{padding:0 4em 0 2em;}
+.wireframes-information-container{padding:0 4em 0 2em;}
+.prototypes-information-container{padding:0 4em 0 2em;}
+
+.guerilla-user-testing-information-container{padding:0 4em 0 2em;}
+.usability-testing-information-container{padding:0 4em 0 2em;}
+/*End Main Information Containers*/
+
+
+
+
+/*Main Images*/
+.empathize-image{width:55%;margin:22em auto 0 auto;}
+.proto-persona-image{width:90%;margin:20em auto 0 auto;}
+.research-objective-image{width:96%;margin:0 auto;}
+.text-box-research-objective-img{width:96% !important;}
+.interview-plan-image{width:96%;margin:0 auto;}
+.text-box-interview-plan-img{width:56% !important;}
+.user-interviews-image{width:96%;margin:0 auto;}
+.interview-transcripts-image{width:96%;margin:0 auto;}
+.card-sorting-image{width:96%;margin:0 auto;}
+
+.define-image{width:55%;margin:22em auto 0 auto;}
+.affinity-diagram-image{width:96%;margin:0 auto;}
+.empathy-map-image{width:96%;margin:0 auto;}
+.user-persona-image{width:96%;margin:0 auto;}
+.user-insight-statement-image{width:96%;margin:0 auto;}
+.text-box-user-insight-statement-img{width:96% !important;}
+.problem-statement-image{width:96%;margin:0 auto;}
+.text-box-problem-statement-img{width:96% !important;}
+.user-story-image{width:96%;margin:0 auto;}
+.competitor-analysis-image{width:96%;margin:0 auto;}
+
+.ideate-image{width:68%;margin:22em auto 0 auto;}
+.i-like-i-wish-what-if-image{width:96%;margin:0 auto;}
+.i-like-i-wish-i-want-image{width:96%;margin:0 auto;}
+.feature-prioritization-matrix-image{width:96%;margin:0 auto;}
+.value-proposition-canvas-image{width:96%;margin:0 auto;}
+.value-proposition-statement-image{width:96%;margin:0 auto;}
+.text-box-value-proposition-statement-img{width:96% !important;}
+.user-scenario-image{width:96%;margin:0 auto;}
+.storyboard-image{width:96%;margin:0 auto;}
+.user-journey-map-image{width:96%;margin:0 auto;}
+
+.task-flow-image{width:96%;margin:0 auto;}
+.wire-flow-image{width:90%;margin:3em auto;}
+.heuristic-evaluation-image{width:96%;margin:0 auto;}
+.sitemap-image{width:96%;margin:0 auto;}
+.user-flow-image{width:96%;margin:0 auto;}
+.user-onboarding-image{width:96%;margin:0 auto;}
+
+
+.prototype-image{width:68%;margin:22em auto 0 auto;}
+.style-guide-image{width:96%;margin:0 auto;}
+.wireframe-image{width:86%;margin:0 auto;}
+.prototypes-image{width:96%;margin:0 auto;}
+
+.test-image{width:70%;margin:22em auto 0 auto;}
+.guerrilla-user-testing-image{width:96%;margin:0 auto;}
+.usability-testing-image{width:96%;margin:0 auto;}
+/*End Main Images*/
+
+	
+	
+	
+}
+
+

@@ -1,0 +1,112 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+.wrapper{width:100%;max-width:100%;margin:0 auto;}
+
+.header{position:relative;width:100%;top:0;left:0;height:90px;z-index:1 !important;background-color:#dddddd;}
+
+.header .wrapper{display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;-ms-align-items:center;align-items:center;justify-content:space-between;height:100%;}
+
+.nav{display:block;margin-left:auto;font-family:custom2;font-size:1.7em;}
+
+.menu{margin:15px 0 0 0;list-style:none;text-decoration:none;}
+
+.menu a{display:block;padding:1px 24px;box-shadow:none;color:#000000;}
+
+a:hover{color:#4a96d9 !important;}
+
+.menu-item{list-style:none;text-decoration:none;}
+
+.nacl-logo-img{width:75px;height:auto;float:left;margin:-1.5px 0 0 1em;}
+
+.nacl-title-slogan-container{width:500px;}
+
+.nacl-menu-title{font-family:custom1;color:#000000;font-size:1.8em;padding-left:0;}
+	
+.nacl-menu-title-light{font-family:custom3;color:#000000;font-size:1em;padding-left:4px;}
+
+.nacl-menu-slogan{font-family:custom1;color:#000000;font-size:1em;padding-left:4px;}
+
+.hamburger__container{display:block;float:right;cursor:pointer;margin-left:-20%;margin-top:-15px;background-color:transparent;border:none;}
+
+.hamburger{width:2.4rem;height:0.9375rem;position:relative;transition:all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);transform:rotate(0deg);}
+
+.hamburger i{display:block;position:absolute;width:100%;height:0.2875rem;background:#000000;opacity:1;left:0;transform:rotate(0deg);transition:all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);}
+
+.hamburger i:nth-of-type(1){top:0;transform-origin:left center;}
+
+.hamburger i:nth-of-type(2){top:0.8rem;transform-origin:left center;}
+
+.hamburger i:nth-of-type(3){top:1.55rem;transform-origin:left center;}
+
+.hamburger.open i:nth-of-type(1){transform:rotate(45deg) translate(0, -0.0925rem);margin:0 0 0 -1px;}
+
+.hamburger.open i:nth-of-type(2){opacity:0;width:0%;}
+
+.hamburger.open i:nth-of-type(3){transform:rotate(-45deg) translate(0, 0.0925rem);margin:0 0 0 -1px;}
+
+.active{color:#0e74bc !important;}
+
+
+@media (max-width: 1450px) {
+    
+.nav{text-align:center;}
+    
+.menu{margin:0 0 80px;}
+	
+.menu-item{font-size:32px;font-weight:100;}
+	
+.menu-item a{padding:10px 0;}
+	
+a:hover{color:#4a96d9 !important;}
+	
+html.noscroll{overflow:hidden;}
+
+body.noscroll{overflow:visible;height:100%;}
+
+.logo, .hamburger__container{position:relative;top:0;right:25px;z-index:9999;}
+	
+.nacl-menu-title{display:none;}
+	
+.nacl-menu-title-light{display:none;}
+
+.nacl-menu-slogan{display:none;}
+
+.nav{position:fixed;top:0;right:-100%;width:100%;height:100%;background:#dddddd;opacity:0;transition:opacity .4s ease;}
+
+.open{opacity:1;right:0;}
+
+.nav__container{position:absolute;padding:80px 20px;top:0;left:0;width:100%;height:100%;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+	
+}
+
+
+
+@media (min-width: 1450px) {
+
+.menu{display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;-ms-align-items:center;align-items:center;}
+
+.mobile{display:none;}
+	
+}
+
+
+
+
+/*Sidebar Submenu*/
+.sidebar{font-family:custom1 !important;height:100%;width:0;position:fixed;z-index:1 !important;top:0;left:0;background-color:#eeeeee;overflow-x:hidden;padding-top:40px;opacity:1;transition:0.5s;}
+
+.sidebar a{padding:8px 8px 8px 32px;text-decoration:none;font-size:1.4em;color:#0e74bc;display:block;transition:0.3s;}
+
+.sidebar a:hover{color:#0c92cf;}
+
+.sidebar .closebtn{position:absolute;top:0;right:25px;font-size:65px;margin-left:50px;}
+
+.openbtn{font-size:50px;cursor:pointer;background-color:transparent;color:#0e74bc;padding:0 10px 5px 10px;border:none;}
+
+.openbtn:hover{color:#0e74bc;}
+
+#main{transition:margin-left .5s;padding:20px;}
+
+.hamburger-menu{width:44px;height:5px;background-color:#6ab3e7;margin:8px 0;}
+/*End Sidebar Submenu*/
+	
